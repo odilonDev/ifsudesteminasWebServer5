@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial;
+	font-size: 20px;
+	color: white;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    height: 100%;
+	background-color: #21A694;
+}
+
+div{
+	height: 100px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.div-imagem, .div-titulo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-paragrafo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-paragrafo span{
+	margin-right: 8px;
+}
+
+.div-botao{
+	padding-top: 12px;
+}
+
+.botao{
+	display:flex;
+	margin: 15px auto 15px auto;
+	border-color: white;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	width: 200px;
+	height: 60px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#btn-viavel{
+	background-color: #21A694;
+}
+
+#btn-inviavel{
+	background-color: #FC8474;
+}
+
+.titulo{
+	font-family: Arial black;
+	font-size: 36px;
+	font-weight: bold;
+}
